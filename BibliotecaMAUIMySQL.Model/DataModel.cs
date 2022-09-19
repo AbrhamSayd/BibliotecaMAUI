@@ -8,13 +8,13 @@ namespace BibliotecaMAUIMySQL.Model
 {
     public class Book
     {
-        public int BookId { get; set; }//primary key, autoincrement,notnull,
-        public int ISBN { get; set; }
-        public string Author { get; set; }
-        public int Published_Year { get; set; }
-        public string Color { get; set; }
-        public string Category { get; set; }
-        public string Remarks { get; set; }
+        public int BookId { get; set; }         //primary key, autoincrement,notnull,
+        public int ISBN { get; set; }           // INT
+        public string Author { get; set; }      //VARCHAR(45)
+        public int Published_Year { get; set; } //YEAR (Equvalente a un INT(4))
+        public string Color { get; set; }       //VARCHAR(12)
+        public string Category { get; set; }    //VARCHAR(45)
+        public string Remarks { get; set; }     //VARCHAR(100)
 
     }
 
@@ -61,3 +61,4 @@ namespace BibliotecaMAUIMySQL.Model
 
     }
 }
+
