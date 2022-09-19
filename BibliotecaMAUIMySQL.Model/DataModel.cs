@@ -20,8 +20,8 @@ namespace BibliotecaMAUIMySQL.Model
 
     public class Category
     {
-        public int Category_ID { get; set; }//primarykey, not null
-        public string Description { get; set; }
+        public int Category_ID { get; set; }    //primarykey, not null, VARCAHR(45)
+        public string Description { get; set; } //
     }
 
     public class Member
