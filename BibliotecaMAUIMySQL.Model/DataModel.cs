@@ -15,7 +15,6 @@ namespace BibliotecaMAUIMySQL.Model
         public string Color { get; set; }       //VARCHAR(12)
         public string Category { get; set; }    //VARCHAR(45)
         public string Remarks { get; set; }     //VARCHAR(100)
-
     }
 
     public class Category
